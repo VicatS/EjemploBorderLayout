@@ -12,9 +12,9 @@ public class Ventana extends  JFrame{
     public Ventana(){
         super("Ejemplo de BorderLayout");
         setLayout(new BorderLayout());
-        //add(etiquetaNombre, BorderLayout.NORTH);
+        add(etiquetaNombre, BorderLayout.NORTH);
         add(etiquetaNombre2, BorderLayout.CENTER);
-        //add(etiquetaNombre3, BorderLayout.SOUTH);
+        add(etiquetaNombre3, BorderLayout.SOUTH);
         add(etiquetaNombre4, BorderLayout.WEST);
         add(etiquetaNombre5, BorderLayout.EAST);
     }
